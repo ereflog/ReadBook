@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hwads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/latarbelakang">
+
+    <com.huawei.hms.ads.banner.BannerView
+        android:id="@+id/hw_banner_view"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginBottom="220dp"
+        hwads:adId="testw6vs28auh3"
+        hwads:bannerSize="BANNER_SIZE_360_57"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Books"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/green"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="By Scanning ISBN Barcode"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/green"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:onClick="newViewBtnClick"
+        android:textAllCaps="false"
+        android:text="Scan ISBN Number"
+        android:textSize="19sp"/>
+
+</LinearLayout>

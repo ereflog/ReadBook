@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ReadBook</string>
+    <string name="find_public_library">Search Public Library</string>
+    <string name="search_near_me">Find Near Me</string>
+</resources>
